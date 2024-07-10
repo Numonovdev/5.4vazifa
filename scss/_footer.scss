@@ -1,0 +1,43 @@
+.footer_container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 100px;
+
+}
+.tarmoqlar{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     align-items: center;
+     justify-content: center;
+     color: rgba(43, 43, 43, 1);
+     font-family: 'Nunito Sans', sans-serif;
+     h6{
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 700;
+     }
+     p{
+          line-height: 21px;
+          font-size: 14px;
+          font-weight: 600;
+
+     }
+}
+.box-tarmoqlar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 5px;
+     .icon{
+          padding: 10px;
+          border-radius: 5px;
+          color: black;
+          transition: all 0.5s;
+     }
+     .icon:hover{
+          background-color: black;
+          color: #fff;
+     }
+}

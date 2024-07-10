@@ -1,0 +1,36 @@
+.container_textandpicture{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 150px;
+     .boxT{
+          width: 272px;
+          height: 162px;
+     }
+     .boxP{
+          width: 240px;
+          height: 214px;
+          img{
+               border-radius: 10px;
+          }
+          
+     }
+
+}
+.boxT {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     color: rgba(43, 43, 43, 1);
+     font-family: 'Nunito Sans', sans-serif ;
+     h5{
+          font-size: 25px;
+          line-height: 34px;
+          font-weight: 700;
+     }
+     p{
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 600;
+     }
+}

@@ -1,0 +1,80 @@
+.container_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+     width: 80px;
+     height: 80px;
+     img{
+          width: 80px;
+          height: 80px;
+          border-radius: 5px;
+     }
+}
+ul{
+     display: flex;
+     justify-content: center;
+     gap: 5px;
+     list-style: none;
+}
+.a{
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 600;
+     color: var(--textblack);
+     // background-color: wheat;
+     padding: 5px 25px;
+     border-radius: 5px;
+     transition: all 0.5s;
+}
+.a:hover{
+     background-color: var(--textblack);
+     color: var(--textwhile);
+}
+.button{
+     display: flex;
+     gap: 5px;
+     .download{
+          padding: 11px 15px;
+          border: 2px solid;
+          border-radius: 5px;
+          font-family: "Nunito Sans", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 28px;text-align: center;
+          transition: all 0.5s;
+          box-sizing: border-box;
+          color: var(--textwhile);
+          cursor: pointer;
+     }
+     .button-red{
+
+          border: 2px solid red;
+          background-color: red;
+     }
+     .button-red:hover{
+          border: 2px solid red;
+          background-color: white ;
+          color: red;
+     }
+     .button-black{
+          background-color: black;
+          border: 2px solid black;
+     }
+     .button-black:hover{
+          border: 2px solid black;
+          background-color: white ;
+          color: var(--textblack);
+     }
+     .button-blue{
+          background-color: blue;
+          border: 2px solid blue;
+     }
+     .button-blue:hover{
+          border: 2px solid blue;
+          background-color: white ;
+          color: blue;
+     }
+}

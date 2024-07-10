@@ -1,0 +1,46 @@
+.container_mainMidle{
+     display: flex;
+     justify-content: space-between;
+     // height: 257px;
+     padding-top: 150px;
+}
+.boxone{
+     width: 508px;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     h1{
+          font-family: 'Nunito Sans', sans-serif;
+          font-size: 39px;
+          font-weight: 700;
+          line-height: 46px;
+     }
+     p{
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 26px;
+          font-family: 'Nunito Sans', sans-serif;
+     }
+}
+.boxtwo{
+     flex-direction: row;
+     float: left;
+     justify-content: center;
+     gap: 45px;
+     .boxblock{
+          display: flex;
+          // gap: 10px;
+          flex-direction: column;
+          a{
+               padding: 5px 10px;
+               font-size: 31px;
+               font-weight: 700;
+               color: rgba(43, 43, 43, 1);
+               line-height: 42px;
+               transition: all 0.4s;
+          }
+          a:hover{
+               color: red;
+          }
+     }
+}

@@ -1,0 +1,49 @@
+.commodo_container{
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+     font-family: 'Nunito Sans', sans-serif;
+     padding-top: 100px;
+     color: rgba(43, 43, 43, 1);
+     h1{
+          font-size: 53px;
+          font-weight: 700;
+          line-height: 63px;
+          text-align: center;
+     }
+}
+
+.commobox{
+     display: flex;
+     gap: 80px;
+     align-items: center;
+     justify-content: center;
+}
+.boxinblock{
+     width: 434px;
+     height: 300;
+     box-sizing: border-box;
+     padding: 60px 40px;
+     box-shadow: 0px 0px 40px 0px rgba(57, 40, 166, 0.15);
+     p{
+          font-size: 16px;
+          line-height: 28px;
+          font-weight: 500;
+     }
+     h6{
+          margin-top: 55px;
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 700;
+     }
+     a{
+          color: rgba(43, 43, 43, 1);
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 500;
+          transition:  all 0.5s;
+     }
+     a:hover{
+          color: red;
+     }
+}
